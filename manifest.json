@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Chinese OCR Translation",
+  "description": "Translates Chinese text in images on webpage",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": ["content.js"]
+    }
+ ]
+}
